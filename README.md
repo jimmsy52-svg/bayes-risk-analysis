@@ -10,9 +10,9 @@ characteristics get updated into posterior risk estimates as evidence
 - `Bayes_Analysis_For_Predicting_Risk.ipynb` — the tutorial notebook
 
 ## Data
-The notebook reads `lendingclub_sample_25000.csv` from `c:\risk\` and
-writes results to the same folder. Create a `c:\risk\` directory and
-drop the Lending Club sample CSV there before running.
+`lendingclub_sample_25000.csv` is included in the repo. The notebook
+expects it at `c:\risk\lendingclub_sample_25000.csv`, so create that
+folder and copy the file there before running.
 
 ## Requirements
 pandas · numpy · pgmpy · scikit-learn · matplotlib
